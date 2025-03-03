@@ -1,0 +1,51 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+        .asd {
+            font-size: larger;
+            font-weight: bold;
+        }
+    article{
+        background-color: aqua;
+
+    }
+    section{
+        display: grid;
+        gap: 10px;
+        place-content: center;
+
+ 
+    }
+}
+
+h1{
+    text-align: center;
+}
+article{
+    background-color: red;
+    display: grid;
+    gap: 10px;
+    place-content: center;
+    width: 50%;
+    height: 100px;
+
+}
+section{
+    display:grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+#asd{
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
